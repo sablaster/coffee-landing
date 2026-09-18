@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня "Зерно"</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50">
+    
+    <!-- Hero секция -->
+    <section class="min-h-screen bg-gradient-to-br from-stone-900 to-amber-900 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-6xl font-bold text-white mb-6">
+                Кофейня "Зерно"
+            </h1>
+            <p class="text-2xl text-stone-300 mb-8">
+                Кофе, который меняет ваше утро
+            </p>
+            <button class="bg-amber-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-700 transition">
+                Забронировать столик
+            </button>
+        </div>
+    </section>
+    
+</body>
+</html>
+<!-- Преимущества -->
+<section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12">Почему выбирают нас</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div class="text-5xl mb-4">☕</div>
+                <h3 class="text-2xl font-bold mb-3">Свежая обжарка</h3>
+                <p class="text-gray-600">Обжариваем зерно каждый день для идеального вкуса</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div class="text-5xl mb-4">🌱</div>
+                <h3 class="text-2xl font-bold mb-3">Эко-подход</h3>
+                <p class="text-gray-600">Используем только органическое зерно из лучших плантаций</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div class="text-5xl mb-4">❤️</div>
+                <h3 class="text-2xl font-bold mb-3">С любовью</h3>
+                <p class="text-gray-600">Наши бариста — настоящие фанаты своего дела</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Меню -->
+<section class="py-20 px-6 bg-stone-100">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12">Наши напитки</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-bold mb-2">Эспрессо</h3>
+                <p class="text-gray-600 mb-4">Классика итальянского кофе</p>
+                <p class="text-2xl font-bold text-amber-600">150 ₽</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-bold mb-2">Капучино</h3>
+                <p class="text-gray-600 mb-4">Нежная молочная пенка</p>
+                <p class="text-2xl font-bold text-amber-600">220 ₽</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-bold mb-2">Латте</h3>
+                <p class="text-gray-600 mb-4">Мягкий вкус с молоком</p>
+                <p class="text-2xl font-bold text-amber-600">250 ₽</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTA -->
+<section class="py-20 px-6 bg-amber-600">
+    <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-4xl font-bold text-white mb-6">Забронируйте столик</h2>
+        <p class="text-xl text-amber-100 mb-8">Оставьте заявку, и мы свяжемся с вами</p>
+        
+        <form class="space-y-4">
+            <input type="text" placeholder="Ваше имя" 
+                   class="w-full px-4 py-3 rounded-lg border-2 border-amber-300 focus:border-white outline-none">
+            <input type="tel" placeholder="Телефон" 
+                   class="w-full px-4 py-3 rounded-lg border-2 border-amber-300 focus:border-white outline-none">
+            <button type="submit" 
+                    class="w-full bg-white text-amber-600 px-6 py-3 rounded-lg font-bold hover:bg-amber-50 transition">
+                Отправить заявку
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-stone-900 text-white py-8 px-6 text-center">
+    <p>&copy; 2026 Кофейня "Зерно". Все права защищены.</p>
+    <p class="mt-2">📍 Москва, ул. Кофейная, 12 | 📞 +7 (999) 123-45-67</p>
+</footer>
